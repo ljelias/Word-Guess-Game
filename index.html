@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <title>Word Guess</title>
+
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h2>Word Guess Game!</h2>
+        </header>
+        <div class="cluedisplay">
+            <h4>Topic: Edible Flowers</h4>
+            <p>Clue: <span id="clue">Press B to begin.</span></p>
+        </div>
+        <div class="playbox">
+            <p><span id="wins">Wins: </span><span id="losses">Losses: </span></p>
+            <h3 id="underscore">_ _ _ _ _ _ _ _ _ _</h3>
+                <div class="usedletters">
+                    <p>Used letters: <span id="used"> </span></p>
+                    <p>Attempts remaining: <span id="attempts"> </span></p>
+                </div>
+        </div>
+        <div class="picturedisplay">
+            <img src="assets/images/whichflower.jpg"/>
+            <p>A little description or info about this flower will show here when image is revealed.</p>
+        </div>
+
+    </div>
+
+
+<script src="assets/javascript/game.js"></script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    border: 1px solid black;
+    font-size: 2rem;
+    text-align: center;
+    margin: 2px auto;
+    height: 60px;
+    padding-top: 15px;
+    width: 55%;
+    background-color: mintcream;
+}
+
+header h4 {
+    font-size: 1.8rem;
+    padding-top: 6px;
+}
+ 
+.cluedisplay {
+    border: 1px solid black;
+    font-size: 24px;
+    font-style: italic;
+    text-align: center;
+    margin: 2px auto;
+    height: 100px;
+    padding-top: 9px;
+    width: 55%;
+    background-color: mintcream;
+}
+
+.cluedisplay p {
+    font-size: 18px;
+    padding-top: 9px;
+}
+
+
+.playbox {
+    border: 1px solid black;
+    margin: 2px auto;
+    height: 210px;
+    padding-top: 5px;
+    width: 55%;
+    background-color: mintcream;
+}
+
+#wins {
+    float: left;
+}
+
+#losses {
+    float: right;
+}
+
+.playbox h3 {
+    padding-top: 65px;
+    padding-bottom: 24px;
+    font-size: 42px;
+    font-style: bold;
+    text-align: center;
+}
+
+.playbox p {
+    font-size: 20px;
+    padding: 5px 12px 0px 12px;
+    text-align: left;
+}
+
+.picturedisplay {
+    border: 1px solid black;
+    font-size: 16px;
+    text-align: center;
+    margin: 2px auto 40px auto;
+    padding: 0px 10px 0px 10px;
+    height: 250px;
+    width: 55%;
+    background-color: mintcream;
+}
+
+img {
+    height: 180px;
+    width: 318px;  
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+}
+
+.container {
+    font-family: Arial, "Helvetica";
+    background-color: lightslategray;
+    width: 80%;
+    margin: 0;
+    padding: 30px 0 10px 0;
+}
+
+
