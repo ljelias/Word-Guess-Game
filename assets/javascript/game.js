@@ -23,11 +23,8 @@ const words = [
   let nextWord = "";
   let goodLetter = 0;
   let play = "";
-
-
-
   
-  //start(document.onkeyup = "p");   ?? HOW TO GET BACK TO STARTING STATE AFTER PREVIOUS ROUND?????
+    
   document.onkeyup = function(event) {
   var userInput = event.key;
   if (userInput === "p") {
@@ -67,7 +64,7 @@ const words = [
 
                 console.log(letterBlanks);
                 goodLetter++;
-                winOrLose();
+                winOrLose ();
             } 
         }
     }
@@ -77,23 +74,23 @@ const words = [
 
         guessesLeft--;
         document.getElementById("guessesremaining").innerHTML = guessesLeft;
-            winOrLose();
+        winOrLose ();
         }
     
     }
 
 //win or lose
 function winOrLose () {
-    if (goodLetter === nextWord.length) { //*****REPEATED LETTERS ARE COUNTED!! ????????/
+    if (letterBlanks.toString() === nextWord.toString() ) { 
         wins++;
         document.getElementById("wintotal").innerHTML = wins;
-        document.getElementById("clue").innerHTML = "YOU WIN!!";
+        document.getElementById("clue").innerHTML = "YOU WIN!! <br> Press P to play again.";
 
-    } else if (guessesLeft === 0) {
+
+    } else if (guessesLeft == "0") {
         losses++;
         document.getElementById("losstotal").innerHTML = losses;
-        document.getElementById("clue").innerHTML = "SORRY - YOU LOSE!";
-
+        document.getElementById("clue").innerHTML = "SORRY - YOU LOSE! <br> Press P to play again.";
     }
   }
 } 
