@@ -2,46 +2,56 @@
     box-sizing: border-box;
 }
 
+.container {
+    font-family: Arial, "Helvetica";
+    background-color: lightslategray;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 0 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 header {
     border: 1px solid black;
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-align: center;
-    margin: 2px auto;
-    height: 60px;
-    padding-top: 15px;
-    width: 55%;
+    margin: 2px;
+    height: 80px;
+    padding-top: 10px;
+    width: 45%;
     background-color: mintcream;
 }
 
 header h4 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     padding-top: 6px;
+    font-style: italic;
 }
  
 .cluedisplay {
     border: 1px solid black;
-    font-size: 24px;
+    font-size: 22px;
     font-style: italic;
+    font-weight: bold;
     text-align: center;
-    margin: 2px auto;
-    height: 100px;
-    padding-top: 9px;
-    width: 55%;
+    margin: 2px;
+    height: 80px;
+    padding: 12px;
+    width: 45%;
     background-color: mintcream;
 }
 
-.cluedisplay p {
-    font-size: 18px;
-    padding-top: 9px;
-}
 
 
 .playbox {
     border: 1px solid black;
-    margin: 2px auto;
-    height: 210px;
+    margin: 2px;
+    height: 250px;
     padding-top: 5px;
-    width: 55%;
+    width: 45%;
     background-color: mintcream;
 }
 
@@ -54,7 +64,7 @@ header h4 {
 }
 
 .playbox h3 {
-    padding-top: 65px;
+    padding-top: 85px;
     padding-bottom: 24px;
     font-size: 42px;
     font-style: bold;
@@ -62,8 +72,8 @@ header h4 {
 }
 
 .playbox p {
-    font-size: 20px;
-    padding: 5px 12px 0px 12px;
+    font-size: 18px;
+    padding: 10px 12px 0px 12px;
     text-align: left;
 }
 
@@ -71,10 +81,10 @@ header h4 {
     border: 1px solid black;
     font-size: 16px;
     text-align: center;
-    margin: 2px auto 40px auto;
+    margin: 2px 2px 40px 2px;
     padding: 0px 10px 0px 10px;
     height: 250px;
-    width: 55%;
+    width: 45%;
     background-color: mintcream;
 }
 
@@ -84,14 +94,6 @@ img {
     margin-top: 10px;
     margin-bottom: 5px;
     border: 1px solid black;
-}
-
-.container {
-    font-family: Arial, "Helvetica";
-    background-color: lightslategray;
-    width: 80%;
-    margin: 0;
-    padding: 30px 0 10px 0;
 }
 
 
