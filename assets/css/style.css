@@ -3,67 +3,77 @@
 }
 
 .container {
-    font-family: Arial, "Helvetica";
-    background-color: rosybrown;
-    border: 5px solid gray;
-    width: 80%;
-    margin: 20px auto;
-    padding: 30px 0 10px 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    font-family: Arial, "Helvetica";
+    background-color: rgb(182, 153, 153);
+    border: 9px groove rgb(150, 150, 150);
+    border-radius: 6px;
+    width: 80%;
+    margin: 3vw auto;
+    padding: 1vw;
 }
 
-header {
-    border: 2px solid gray;
-    font-size: 1.8rem;
+#titlebox,
+#cluebox    {
+    border: 1px solid white;
+    border-radius: 3px;
     text-align: center;
-    margin: 2px;
+    margin: .2vh .5vw;
+    padding: 1vh 1vw;
     height: 80px;
-    padding-top: 10px;
-    width: 45%;
+    width: 47%;
+    min-width: 369px;
     background-color: mintcream;
 }
 
-header h4 {
+#titlebox h2 {
+    margin-top: 4px;
+    font-size: 1.8rem;
+}
+
+#titlebox h4 {
     font-size: 1.5rem;
-    padding-top: 6px;
+    margin-top: 6px;
     font-style: italic;
 }
  
-.cluedisplay {
-    border: 2px solid gray;
+#cluebox p {
     font-size: 22px;
+    margin-top: 6px;
     font-style: italic;
     font-weight: bold;
-    text-align: center;
-    margin: 2px;
-    height: 80px;
-    padding: 12px;
-    width: 45%;
-    background-color: mintcream;
 }
 
-
-
-.playbox {
-    border: 2px solid gray;
-    margin: 2px;
-    height: 250px;
-    padding-top: 5px;
-    width: 45%;
+#playbox,
+#picturebox {
+    border: 1px solid white;
+    border-radius: 3px;
+    margin: .2vh .5vw;
+    height: 285px;
+    padding: 1vw;
+    width: 47%;
+    min-width: 369px;
     background-color: mintcream;
+    text-align: center;
 }
 
 #wins {
     float: left;
+    padding: 12px;
+    border-radius: 3px;
+    background-color:  rgb(248, 212, 212);
 }
 
 #losses {
     float: right;
+    padding: 12px;
+    border-radius: 3px;
+    background-color: rgb(248, 212, 212);
 }
 
-.playbox h3 {
+#playbox h3 {
     padding-top: 85px;
     padding-bottom: 24px;
     font-size: 42px;
@@ -71,29 +81,23 @@ header h4 {
     text-align: center;
 }
 
-.playbox p {
-    font-size: 18px;
+#playbox p {
+    font-size: 1.5rem;
     padding: 10px 12px 0px 12px;
     text-align: left;
 }
 
-.picturedisplay {
-    border: 2px solid gray;
-    font-size: 16px;
-    text-align: center;
-    margin: 2px 2px 40px 2px;
-    padding: 0px 10px 0px 10px;
-    height: 250px;
-    width: 45%;
-    background-color: mintcream;
+#picturebox p {
+    font-size: 1.1rem;
+    margin-top: 6px;
 }
 
 img {
-    height: 180px;
-    width: 318px;  
-    margin-top: 10px;
-    margin-bottom: 5px;
-    border: 1px solid gray;
+    width: 85%;  
+    height: auto;
+    border: 1px solid rgb(150, 150, 150);
+    margin-top: 6px;
+    margin-bottom: 12px;
 }
 
 
